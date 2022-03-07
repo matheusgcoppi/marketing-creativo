@@ -15,4 +15,29 @@ html {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-   }
+}
+
+body {
+    color: white;
+    margin: 0 auto;
+    max-width: 1700px;
+    margin-top: 20px;
+}
+
+/* 
+ * ===================================
+ * Header/Nav
+ * ===================================
+ */
+
+ .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .mkt {
+     font-size: 5rem;
+
+ }
