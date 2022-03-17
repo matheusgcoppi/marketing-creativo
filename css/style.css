@@ -39,5 +39,19 @@ body {
 
  .mkt {
      font-size: 5rem;
+ }
+
+ .items ul{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     list-style-type: none;
+ }
+ 
+ .item a{
+     color: black;
+     font-size: 3rem;
+     padding: 10px;
+     margin-right: 20px;
 
  }
