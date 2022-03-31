@@ -68,7 +68,7 @@ body {
  */
 
  .main {
-    margin-top: 100px;
+    margin-top: -20px;
  }
 
  .section {
@@ -83,4 +83,8 @@ body {
      display: flex;
      flex-direction: column;
      gap: 32px;
+ }
+
+ .first-div h1 {
+     color: rgba(161, 0, 113, 0.945);
  }
